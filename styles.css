@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+    background-image: url(./assets/beauty.jpg);
  }
  header {
    background-color: none;
@@ -22,7 +22,7 @@
     margin: 12px;
     justify-content: space-between;
     align-items: stretch;
-    background-image: url(./assets/beauty.jpg);
+    
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
@@ -43,5 +43,7 @@
 .text-container{
    display: flex;
    position: absolute;
+   justify-content: center;
+   align-self: center;
 
 }
