@@ -46,4 +46,11 @@
    justify-content: center;
    align-self: center;
 
+}.navbar{
+   background-color: none;
+   display: flex;
+   padding: 30px;
+   flex-direction:row-reverse;
+   justify-content: flex-end;
+   align-items: center;
 }
